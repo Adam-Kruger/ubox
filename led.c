@@ -1,7 +1,7 @@
 #include <wiringPi.h>
 int main (void)
 {
-  wiringPiSetup () ;
+  wiringPiSetupGpio() ;
   pinMode (2, OUTPUT) ;
   for (;;)
   {
