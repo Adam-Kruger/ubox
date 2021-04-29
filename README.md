@@ -66,5 +66,5 @@
   4. Go to "programs" folder on Raspberry Pi using command: cd programs
   5. To compile use command: g++ -Wall -o buttonplus buttonplus.cpp -lwiringPi
 ### How to run:
-  1. Run with command: ssh raspberry programs/buttoncpp
+  1. Run with command: ssh raspberry programs/buttonplus
   2. To stop program use keyboard shortcut Ctrl+C
